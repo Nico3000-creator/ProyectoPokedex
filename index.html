@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pokedex</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="card">
+                <h1 class="titulo">Pokedex</h1>
+                <form action="#">
+                    <input type="number" name="nombre" id="id" min="0" max="5" placeholder="Pokemon" required>
+                    <button id="buscador">Buscar Pokemon</button>
+                    <h2 class="respuesta" id="nombre"></h2>
+                    <h3 class="respuesta" id="tipo"></h3>
+                    <h3 class="respuesta" id="nivel"></h3>
+                </form> 
+            </div>
+        </div>
+    </main>
+</body>
+<script src="app.js"></script>
+<script src="data.js"></script>
+</html>
